@@ -15,5 +15,4 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Get uptime
-      run: cat /proc/uptime | cut -d' ' -f1
+    - uses: ./.github/actions/uptime
