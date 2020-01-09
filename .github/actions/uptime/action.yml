@@ -1,0 +1,5 @@
+name: "uptime"
+description: "Uptime"
+runs:
+  using: "docker"
+  image: "Dockerfile"
